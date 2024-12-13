@@ -1,0 +1,601 @@
+<html>
+<head>
+    <title>Anime Lovers</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: blanchedalmond;
+        }
+        .animany{
+            background-image: linear-gradient(to left, rgba(164, 78, 41, 0.5), rgba(0,0,0,0.5)),
+            url('../image/bg.jpeg') ;
+            background-size: cover;
+            color: white;
+            padding: 120px 30px;
+            text-align: start;
+        }
+        .ali{
+            padding: 0px 10px;
+            text-align: end;
+        }
+        .anime-logo {
+            width: 100%;
+            height: auto;
+            max-height: 150px;
+            object-fit: cover;
+        }
+        .photos img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }        
+        .masonry {
+        column-count: 3;
+        column-gap: 1rem;
+        }
+        .masonry img {
+        width: 100%;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #6a11cb;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Anime bg section -->
+    <header class="animany">
+        <h1>Welcome Anime Lovers</h1>
+        <a href="./port.html" class="btn btn-light mt-3">Home</a>
+        <a href="./genshin.html" class="btn btn-light mt-3">Genshin</a>
+        <div class="ali">
+            <h2>Animes</h2><br>
+            <h3>Are</h3><br>
+            <h1>Love</h1>
+        </div>
+        
+    </header>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Top Best Animes</h2>
+
+        <!-- Anime List -->
+        <div class="accordion" id="animeAccordion">
+            <!-- Naruto -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingNaruto">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNaruto" aria-expanded="true" aria-controls="collapseNaruto">
+                        Naruto
+                    </button>
+                </h2>
+                <div id="collapseNaruto" class="accordion-collapse collapse" aria-labelledby="headingNaruto" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>Naruto is a Japanese manga series about a young ninja who seeks recognition and dreams of becoming the Hokage.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../image/naruto.jpg" alt="Naruto"></div>
+                            <div class="col-md-4"><img src="../image/naruto2.jpg" alt="Naruto"></div>
+                            <div class="col-md-4"><img src="../image/naruto3.jpg" alt="Naruto"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- One Piece -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                     One Piece
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/luffy.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/team.jpeg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/zoro.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tokyo Ghoul -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                     Tokyo Ghoul
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/tokyo.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/teamtokyo.png" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/tokyogirl.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Tower of God -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                     Tower of God
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/tog1.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/tog2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/tog3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Death Note -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                     Death Note
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/dn1.webp" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/dn2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/dn3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Solo Leveling -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                     Solo Leveling
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/solo1.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/solo2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/solo3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Demon Slayer -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                     Demon Slayer
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/ds1.webp" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/ds2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/ds3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- One Punch Man -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                     One Punch Man
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/opm1.png" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/opm2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/opm3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Jujutsu Kaisen -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        Jujutsu Kaisen
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/jjk1.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/jjk2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/jjk3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Black Clover -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        Black Clover
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/bcl1.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/bcl2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/bcl3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Attack on Titan -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingAttackOnTitan">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAttackOnTitan" aria-expanded="false" aria-controls="collapseAttackOnTitan">
+                         Attack on Titan
+                    </button>
+                </h2>
+                <div id="collapseAttackOnTitan" class="accordion-collapse collapse" aria-labelledby="headingAttackOnTitan" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>Attack on Titan is set in a world where humanity lives within enormous walled cities to protect themselves from Titans.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/titan.jpg" alt="Attack on Titan"></div>
+                            <div class="col-md-4"><img src="../anime-img/team2.jpg" alt="Attack on Titan"></div>
+                            <div class="col-md-4"><img src="../anime-img/aot.jpg" alt="Attack on Titan"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- manga section -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Best Top Manga | Manhwa</h2>
+
+        <!-- Novel List -->
+        <div class="accordion" id="animeAccordion">
+            <!-- Eleceed -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingNaruto">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNaruto" aria-expanded="true" aria-controls="collapseNaruto">
+                        Eleceed
+                    </button>
+                </h2>
+                <div id="collapseNaruto" class="accordion-collapse collapse" aria-labelledby="headingNaruto" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>Naruto is a Japanese manga series about a young ninja who seeks recognition and dreams of becoming the Hokage.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/el1.jpg" alt="Naruto"></div>
+                            <div class="col-md-4"><img src="../anime-img/el2.png" alt="Naruto"></div>
+                            <div class="col-md-4"><img src="../anime-img/el3.jpg" alt="Naruto"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The beginning after the end -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                     The Beginning After The End
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/bat1.webp" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/bat2.jpeg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/bat3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The world after the fall -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        The World After The Fall             
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/tokyo.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/teamtokyo.png" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/tokyogirl.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- The Greatest Estate Developer -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        The Greatest Estate Developer
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/tog1.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/tog2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/tog3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Villian To Kill -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        Villian To Kill
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/dn1.webp" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/dn2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/dn3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- My Daughter is the Final Boss -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        My Daughter is the Final Boss
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/solo1.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/solo2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/solo3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Mercenary Enrollment -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        Mercenary Enrollment
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/ds1.webp" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/ds2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/ds3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Presidents Special Instructions -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        President's Special Instructions
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/opm1.png" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/opm2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/opm3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Jungle Juice -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        Jungle Juice
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/jjk1.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/jjk2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/jjk3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Unordinary -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        Unordinary
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/bcl1.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/bcl2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/bcl3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Academys Genius Swordsman -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        Academy's Genius Swordsman
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/bcl1.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/bcl2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/bcl3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Devil Buttler -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOnePiece">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnePiece" aria-expanded="false" aria-controls="collapseOnePiece">
+                        The Devil Buttler
+                    </button>
+                </h2>
+                <div id="collapseOnePiece" class="accordion-collapse collapse" aria-labelledby="headingOnePiece" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>One Piece follows the adventures of Monkey D. Luffy and his pirate crew in search of the ultimate treasure.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/bcl1.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/bcl2.jpg" alt="One Piece"></div>
+                            <div class="col-md-4"><img src="../anime-img/bcl3.jpg" alt="One Piece"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Heavenly Inquistion Sword -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingAttackOnTitan">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAttackOnTitan" aria-expanded="false" aria-controls="collapseAttackOnTitan">
+                        Heavenly Inquistion Sword
+                    </button>
+                </h2>
+                <div id="collapseAttackOnTitan" class="accordion-collapse collapse" aria-labelledby="headingAttackOnTitan" data-bs-parent="#animeAccordion">
+                    <div class="accordion-body">
+                        <p>Attack on Titan is set in a world where humanity lives within enormous walled cities to protect themselves from Titans.</p>
+                        <div class="row photos">
+                            <div class="col-md-4"><img src="../anime-img/titan.jpg" alt="Attack on Titan"></div>
+                            <div class="col-md-4"><img src="../anime-img/team2.jpg" alt="Attack on Titan"></div>
+                            <div class="col-md-4"><img src="../anime-img/aot.jpg" alt="Attack on Titan"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery -->
+
+    
+    <div class="container py-5">
+        <h2 class="container my-3"  style="text-align: center;"> Best FMC 😍</h2>
+        <div class="masonry">
+          <img src="../anime-img/img1.avif" alt="Image 1">
+          <img src="../anime-img/img2.jpg" alt="Image 2">
+          <img src="../anime-img/bat3.jpg" alt="Image 3">
+          <img src="../anime-img/img9.jpg" alt="">
+          <img src="../anime-img/el3.jpg" alt="Image 5">
+          <img src="../anime-img/tokyogirl.jpg" alt="Image 6">
+          <img src="../anime-img/girl1.avif" alt="Image 7">
+          <img src="../anime-img/img7.webp" alt="Image 8">
+          <img src="../anime-img/img8.avif" alt="Image 9">
+          <img src="../anime-img/img10.jpg" alt="Image 10">
+          <img src="../anime-img/img12.jpg" alt="Image 11">
+        </div>
+      </div>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contact Me</h2>
+        <form class="mt-4">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <div style="display: flex; justify-content: center; text-align: center;">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Abhishek Singh. All rights reserved.</p>
+        <p><a href="#">Back to top</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
